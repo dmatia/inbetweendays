@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Orbitron:wght@400..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-height: 100vh;
+    max-width: 100vw;
+    background-color: #f0f0f0;
+}
+
+.title-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  font-family: 'Homemade Apple', cursive;
+  font-size: 2em;
+  color: red;
+}
+
+.sticky_parent{
+    height: 200vh;
+
+}
+
+.sticky{
+ overflow: hidden;
+ position: sticky;
+ top: 0;
+ height: 100vh;
+}
+
+.scroll_section{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 500vw;
+    will-change: transform;
+    display: flex;
+   justify-content: space-around;
+    align-items: center;
+    padding: 0 5vw;
+}
+
+.scroll_section p{
+    min-width: max-content;
+    padding-right: 5em;
+}
+
+footer{
+    text-align: center;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #c3c3c3;
+    padding: 5px;
+}
