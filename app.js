@@ -32,17 +32,6 @@ let poems = [
     <br>would you show me that you care?
     <br>im tired of things ending up always the same way`,
 
-    `if you see me coming
-    <br>if you see me around
-    <br>don't take a sit
-    <br>don't start to talk
-    <br>i don't wanna know
-    <br>i don't wanna hear
-    <br>if you ever miss me
-    <br>or if you ever cry
-    <br>it's all alright
-    <br>i swear, it's just fine`,
-
     `the wheel shortens the distance between us
     <br>say it again, and hear yourself repeat your words
     <br>'cause hearing and understanding don't seem enough
@@ -51,6 +40,18 @@ let poems = [
     <br>at departure, i want more
     <br>and when everything falls silent
     <br>i'll come looking for you`,
+
+    
+    `while you say and do, i wait in the car
+    <br>i carry your bags, walk by your side, try to keep up with your rhythm
+    <br>i see how you talk to others
+    <br>and how you look at them
+    <br>but never glance my way
+    <br>i disappear from time to time
+    <br>i lose my voice
+    <br>cant find my trace
+    <br>distant from the world that waits
+    <br>i can only get there following your steps`,
 
     `I must go anyway.
     <br>I look at you while you sleep,
@@ -93,6 +94,17 @@ let poems = [
     <br>And i know where there's no god
     <br>Behind my back there's a line of them asking me out
     <br>I'm not decided yet whether you dont see or you just dont care`,
+    
+    `if you see me coming
+    <br>if you see me around
+    <br>don't take a sit
+    <br>don't start to talk
+    <br>i don't wanna know
+    <br>i don't wanna hear
+    <br>if you ever miss me
+    <br>or if you ever cry
+    <br>it's all alright
+    <br>i swear, it's just fine`,
 
     `Didnt you know I was for real when i let you in?
     <br>I know when you dont understand and i know when you pretend not to
@@ -105,22 +117,6 @@ let poems = [
     <br>And when you say that thing
     <br>Do you know the spell you're casting on me?`,
 
-
-    `You look at me and you see the truth no one else sees not even myself
-    <br>I drink the wine and i take the pill
-    <br>Eyes looking like the heaven ive seen while falling downhills 
-    <br>You, the caretaker
-    <br>You, the wise man
-    <br>You, the always on time
-    <br>I have no doubts you'll take me anywhere 
-    <br>Just to see my smile
-    <br>But i have a secret garden
-    <br>And no one can gets near by
-    <br>There i keep all my secrets
-    <br>And I've forgot where the key i decided to hide
-    <br>I just dont want to waste your honor 
-    <br>I haven't found yet mine`,
-
     `My summer thing dying young,
     <br>Can’t face killing myself to the core.
     <br>Storming my eyes, salt on fresh wounds.
@@ -131,61 +127,6 @@ let poems = [
     `will i ever get my things right?
     <br> will i ever know whats going on at the time?
     <br> will i ever get to the other side?`,
-
-    `ill sip the wine
-    <br>i'll leave my town
-    <br>i'll find the strength
-    <br>and i'll go away
-    <br>i'll go anywhere
-    <br>will see the sand
-    <br>will touch the sea
-    <br>talk to the birds
-    <br>and your name will be known 
-    <br>by all of the trees
-    <br>will see the mountains
-    <br>will chase the sunrise
-    <br>as soon as leave the midnight
-    <br>will cheat the clock
-    <br>will smooth the smoke
-    <br>i'll carry my broken heart
-    <br>around the world
-    <br>'till i come home
-    <br>just to find out
-    <br>that you were never waiting for me outside`,
-
-    `I will survive the night,
-    <br>The party’s about to start,
-    <br>The themes repeating themselves until the sun comes up.
-    <br>Someone will crash,
-    <br>Someone will laugh,
-    <br>Someone will cry,
-    <br>Some will be dancing, some will be fighting,
-    <br>And the corner of the quiet,
-    <br>Hidden in strange smoke,
-    <br>The bathroom full of bodies,
-    <br>Flushing their youth down the toilet,
-    <br>Just to pretend someone’s using nature’s call.
-    <br>Despite the white thin rocks on the table,
-    <br>I’m here, and I’m part of it too.
-    <br>I know how to get myself a good time,
-    <br>I will not remember you tonight.
-    <br>I can pass this test,
-    <br>I will survive the night,
-    <br>Even though you’re not by my side.`,
-
-    `they look at me like i'm going to war
-    <br> they look at me like i'm going to a war i have lost beforehand
-    <br> whispers on my ears
-    <br> telling me i'm doing the wrong thing
-    <br> future laments of how i will regret
-    <br> concerning thoughts of how my heart wilk break
-    <br> but if it's all true
-    <br> how come i get this feeling so strong
-    <br> i can't seem to understand
-    <br> how anybody hasn't feeling this yet
-    <br> i want to know
-    <br> i want to stay
-    <br> it doesn't matter what price i'd have to pay`,
 
     `butterflies inside, 
     <br>no longer just fluttering, they've started to whisper to my heart
@@ -198,16 +139,6 @@ let poems = [
     <br>
     <br>youre always playing with fire in my head`,
 
-    `while you say and do, i wait in the car
-    <br>i carry your bags, walk by your side, try to keep up with your rhythm
-    <br>i see how you talk to others
-    <br>and how you look at them
-    <br>but never glance my way
-    <br>i disappear from time to time
-    <br>i lose my voice
-    <br>cant find my trace
-    <br>distant from the world that waits
-    <br>i can only get there following your steps`,
 
     `I wrote you a song
 <br>That rhymes your name
