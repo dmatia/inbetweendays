@@ -109,7 +109,7 @@ let poems = [
     `Didnt you know I was for real when i let you in?
     <br>I know when you dont understand and i know when you pretend not to
     <br>Dont you see how much i owe you?
-    <br>Its been to long that ive been waiting by the door
+    <br>Its been too long that ive been waiting by the door
     <br>All these thing you say, do they mean something at all?
     <br>Don't you see i take my shit damn very well?
     <br>I sit and stare
