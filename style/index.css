@@ -61,3 +61,16 @@ footer{
     color: #c3c3c3;
     padding: 5px;
 }
+
+.new {
+    height: 100vh;
+    width: 100vw;
+}
+
+.new-text{
+    font-size: 2em;
+    color: #000;
+    text-align: left;
+    padding-top: 20vh;
+    padding: 20vh 0 0 5vw;
+}
