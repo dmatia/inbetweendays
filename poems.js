@@ -114,7 +114,7 @@ text: `
 quisiera encontrarle la vuelta a algunas cosas. entender cómo funciona el agua, fundirme en la melodía. descubrir qué separa la noche del día y cómo cambio cuando la luna se esconde en la orilla. quisiera desplegarme entre el todo que es esto y entender cómo se entiende la vida y todos esos secretos que se esconden entre los días. quisiera ser dueño de al menos una fantasía. la mano que gira la llave, la rueda que da pie a esa manía.`
 },
 {
-year: "2021",
+year: "2025",
 title: "",
 text: `
 la rueda corta la distancia entre vos y yo
