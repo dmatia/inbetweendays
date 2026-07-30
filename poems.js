@@ -41,25 +41,6 @@ solo otra vez. huérfano de vos,
 huérfano de mí, huérfano del don.`
 },
 {
-year: "2025",
-title: "",
-text: `
-el vacío me persigue
-como marca registrada, usa tu perfume
-
-desayuno con pena,
-espero el colectivo con pena
-camino por la calle de los desconsolados
-donde todos mis anhelos
-aprendieron a no ser expresados
-
-es cierto que la viejas costumbres
-solo saben morir gritando
-
-a la sombra de tus emociones
-siempre estoy a punto de perder`
-},
-{
 year: "2019",
 title: "",
 text: `
@@ -135,30 +116,35 @@ quisiera encontrarle la vuelta a algunas cosas. entender cómo funciona el agua,
 {
 year: "2021",
 title: "",
-text: `la rueda corta la distancia entre vos y yo
+text: `
+la rueda corta la distancia entre vos y yo
 decimelo y repetí tus palabras
 que el escuchar con entender no alcanza
 cuando llega el día quiero más
-en al otra partida, quiero más
-y cuando todos se callan
+en la otra partida, quiero más
+y cuando todos se callen
 yo te voy a ir a buscar`
 },
 {
 year: "2023",
 title: "",
-text: `no sé cómo comportarme,
+text: `
+no sé cómo comportarme,
 no sé cómo se hacen las cosas
-las escenas de nuestra historia rota
-cada cosa se va poniendo
-cada vez peor
-es muy raro no tenerte cerca
+en las escenas de nuestra historia rota
+cada cosa se va poniendo cada vez peor
+
+(es muy raro no tenerte cerca)
+
 los días de limpieza
 decíamos que nos estábamos preparando
 pero no sabíamos para qué
+
 no estés enojada conmigo
-no fue para buscarte un mal a vos
-no me doy cuenta que las cosas ya fueron
-te acordás de nuestra canción favorita?
+no fue para causarte un mal a vos
+todavía no me doy cuenta que algunas cosas ya fueron
+
+¿te acordás de nuestra canción favorita?
 ¿cómo se llamaba?`
 },
 {
@@ -173,19 +159,20 @@ y de filosofía
 del café, de los perros
 y la vecina de la esquina
 repitamos esa charla que ya tuvimos
-agreguemos algo más
+agreguemos algo más,
 algo que no dijimos
-si hace falta mentir, mentimos
-si hace falta inventar, lo hacemos
+si hace falta mentir, mintamos
+si hace falta inventar, inventemos
+
 busca en la ceniza del cigarro
-detrás de los muebles, abajo de los tarros
+detrás de los muebles, debajo de los tarros,
 apurate a encontrar noticias
 antes de que termine el dia
 repasemos obviedades, que siempre quede algún resto
 no nos encontremos en los ojos
 como dos perdidos
 que no nos gane el silencio
-y no nos veamos obligados
+y nos veamos obligados
 sin más remedio
 a tener que hablar de todo esto`
 },
@@ -199,7 +186,9 @@ los días de verano
 la cotidianidad del siempre
 los fuera de foco
 esperas y adioses
+
 y vuelven
+
 mis dias vuelven a ser míos
 y tuyos vuelven a ser tus días
 y la espera, otros labios, y la espera
@@ -207,11 +196,13 @@ y se desvanecen los días
 entrada ya la noche
 mientras me coso
 y trato de arreglarme
+
 hasta que tus días 
 se entrecrucen con mis días
 y todo es verde
 pero la soledad ya no se siente acompañada
 y todo es celeste
+
 y vuelven
 la nada
 los días de verano
@@ -220,36 +211,39 @@ la cotidianidad del siempre`
 {
 year: "2016",
 title: "",
-text: `tal vez sea momento de mirarte de frente y ver como te vas
-caminando en sentido contrario  de esto que soy y esto que no puedo dar
+text: `
+tal vez sea momento de mirarte de frente y ver cómo te vas
+caminando en sentido contrario  de esto que soy y de esto que no puedo dar
 otra vez acá, parado en este sentimiento
 quieto, incapaz de vos, incapaz de mí
-si solo pudiera decirte lo que quiero
-te diría que te quiero
-si pudiera sacar lo que tengo adentro y dártelo, aunque creo que ya lo hice
-pero no lo agarraste
-solo otra vez. huérfano de vos,
-huérfano de mí, huérfano del don.`
+si tan solo pudiera decirte lo que quiero, te diría que te quiero
+si pudiera sacar lo que tengo adentro y dártelo, no lo dudaría
+aunque creo que ya lo hice
+pero no lo agarraste y desde la partida,
+solo otra vez, huérfano de mí,
+huérfano de vos, huérfano del don.`
 },
 {
 year: "2025",
 title: "",
-text: `las plantas crecen y vuelven a florecer
+text: `
+las plantas crecen y vuelven a florecer
 crece el río por las piedras que quiero aprender
 no importa si el reloj camina callado
 siempre voy a encontrar en algo volver
-aclara la noche cuando te encuentro en la boca
+aclara la noche cuando te encuentro en La Boca
 bailando en la parte de atrás de mi cabeza
 sabés que me estoy haciendo de todo esto
 hay ideas que no quiero entender
-por vos me muevo un poco, y otro más
+pero por vos me muevo un poco, y otro más
 y si algo falla y no me encontrás
 inventando cielos que nos cobijen voy a estar`
 },
 {
 year: "2025",
 title: "",
-text: `sos la ausencia de mis padres
+text: `
+sos la ausencia de mis padres
 del cuidado que no supe tener
 de la falta de gobierno y duración, sos la acción 
 de todas las veces que tropecé
