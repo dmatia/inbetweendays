@@ -1,85 +1,436 @@
 @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Orbitron:wght@400..900&display=swap');
 
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
 }
 
 body{
-    max-height: 100vh;
-    max-width: 100vw;
-    background-color: #f0f0f0;
+    background:#f0f0f0;
+    color:#222;
+    font-family:Georgia, serif;
+    overflow-x:hidden;
 }
+
+/* ==========================
+        VOLVER
+========================== */
+
+.back-button{
+    position:fixed;
+    top:25px;
+    left:30px;
+
+    text-decoration:none;
+    color:#555;
+    font-size:1rem;
+    z-index:100;
+}
+
+.back-button:hover{
+    text-decoration:underline;
+}
+
+/* ==========================
+        CARRUSEL
+========================== */
+
+#collection{
+
+    width:min(900px,90vw);
+
+    margin:10vh auto;
+
+    display:grid;
+    grid-template-columns:70px 1fr 70px;
+    align-items:center;
+    gap:1rem;
+
+}
+
+.carousel{
+
+    width:100%;
+    overflow:hidden;
+
+}
+
+.poemasas{
+
+    background:#fff;
+
+    border:1px solid #ddd;
+
+    border-radius:8px;
+
+    padding:3rem;
+
+    min-height:600px;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+
+    animation:fade .35s;
+
+}
+
+.poemasas .year{
+
+    display:block;
+
+    font-size:.95rem;
+
+    color:#777;
+
+    margin-bottom:2rem;
+
+    letter-spacing:2px;
+
+}
+
+.poemasas h2{
+
+    margin-bottom:1.5rem;
+
+    font-size:2rem;
+
+    font-weight:normal;
+
+}
+
+.poemasas p{
+
+    white-space:pre-wrap;
+
+    line-height:2;
+
+    text-align:left;
+
+    font-size:1.05rem;
+
+}
+
+.counter{
+
+    margin-top:2rem;
+
+    text-align:right;
+
+    color:#999;
+
+    font-size:.9rem;
+
+}
+
+.arrow{
+
+    width:55px;
+    height:55px;
+
+    border:none;
+    border-radius:50%;
+
+    cursor:pointer;
+
+    background:white;
+
+    font-size:2rem;
+
+    color:#666;
+
+    transition:.25s;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.12);
+
+}
+
+.arrow:hover{
+
+    background:#222;
+    color:white;
+
+    transform:scale(1.08);
+
+}
+
+/* ==========================
+        ENSAYO
+========================== */
+
+#entry-1{
+
+    width:min(850px,90vw);
+
+    margin:15vh auto;
+
+    background:white;
+
+    padding:4rem;
+
+    line-height:2;
+
+    text-align:justify;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+
+}
+
+#entry-1 h1{
+
+    margin-bottom:2rem;
+
+    color:#000;
+
+    font-family:Georgia, serif;
+
+    font-size:2rem;
+
+}
+
+/* ==========================
+        TÍTULO
+========================== */
 
 .title-container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+
+    height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+
 }
 
-h1 {
-  font-family: 'Homemade Apple', cursive;
-  font-size: 2em;
-  color: red;
+.title-container h1{
+
+    font-family:'Homemade Apple',cursive;
+
+    color:red;
+
+    font-size:2rem;
+
+    line-height:2;
+
 }
+
+/* ==========================
+        SCROLL HORIZONTAL
+========================== */
 
 .sticky_parent{
-    height: 200vh;
+
+    height:200vh;
 
 }
 
 .sticky{
- overflow: hidden;
- position: sticky;
- top: 0;
- height: 100vh;
+
+    position:sticky;
+
+    top:0;
+
+    height:100vh;
+
+    overflow:hidden;
+
 }
 
 .scroll_section{
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 500vw;
-    will-change: transform;
-    display: flex;
-   justify-content: space-around;
-    align-items: center;
-    padding: 0 5vw;
+
+    position:absolute;
+
+    top:0;
+
+    left:0;
+
+    width:500vw;
+    height:100%;
+
+    display:flex;
+
+    justify-content:space-around;
+    align-items:center;
+
+    padding:0 5vw;
+
+    will-change:transform;
+
 }
 
 .scroll_section p{
-    min-width: max-content;
-    padding-right: 5em;
+
+    min-width:max-content;
+
+    padding-right:5rem;
+
 }
+
+/* ==========================
+        FOOTER
+========================== */
 
 footer{
-    text-align: center;
-    font-size: 1rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #c3c3c3;
-    padding: 5px;
+
+    text-align:center;
+
+    color:#aaa;
+
+    padding:20px;
+
+    font-size:.95rem;
+
 }
 
-.new {
-    height: 100vh;
-    width: 100vw;
+/* ==========================
+        ANIMACIONES
+========================== */
+
+@keyframes fade{
+
+    from{
+        opacity:0;
+        transform:translateX(20px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateX(0);
+    }
+
 }
 
-.new-text{
-    font-size: 2em;
-    color: #000;
-    text-align: left;
-    padding-top: 20vh;
-    padding: 20vh 0 0 5vw;
+/* ==========================
+        TABLETS
+========================== */
+
+@media (max-width:1024px){
+
+    .poemas{
+
+        min-height:520px;
+
+        padding:2.5rem;
+
+    }
+
+    .poemas p{
+
+        font-size:1rem;
+
+    }
+
+    #entry-1{
+
+        padding:3rem;
+
+    }
+
 }
 
-#entry-1{
-    margin: 10vh auto;
-    width: 80vw;
-    max-width: 800px;
-    text-align: justify;
-    background-color: #ccc;
-    padding: 30px;
+/* ==========================
+        CELULARES
+========================== */
+
+@media (max-width:768px){
+
+    #collection{
+
+        grid-template-columns:50px 1fr 50px;
+
+        width:95vw;
+
+        margin:6vh auto;
+
+    }
+
+    .arrow{
+
+        width:42px;
+        height:42px;
+
+        font-size:1.4rem;
+
+    }
+
+    .poemas{
+
+        min-height:auto;
+
+        padding:2rem 1.5rem;
+
+    }
+
+    .poemas p{
+
+        font-size:.95rem;
+
+        line-height:1.8;
+
+    }
+
+    .title-container h1{
+
+        font-size:1.3rem;
+
+    }
+
+    #entry-1{
+
+        width:95vw;
+
+        padding:2rem;
+
+        line-height:1.8;
+
+    }
+
+}
+
+/* ==========================
+        MONITORES GRANDES
+========================== */
+
+@media (min-width:1600px){
+
+    #collection{
+
+        width:1000px;
+
+    }
+
+    .poemasas{
+
+        min-height:700px;
+
+        padding:4rem;
+
+    }
+
+    .poemasasas p{
+
+        font-size:1.15rem;
+
+    }
+
+    #entry-1{
+
+        max-width:950px;
+
+        font-size:1.05rem;
+
+    }
+
+    .title-container h1{
+
+        font-size:2.5rem;
+
+    }
+
 }

@@ -223,3 +223,4 @@ function transform(section) {
     let translateX = progress * (scrollSection.scrollWidth - section.clientWidth); // Movimiento horizontal
     scrollSection.style.transform = `translate3d(${-translateX}px, 0, 0)`;
 }
+
