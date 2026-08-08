@@ -54,19 +54,16 @@ body{
 }
 
 .carousel{
-
     width:100%;
     overflow:hidden;
-
 }
 
-.poemasas{
+.poemas{
+    white-space: pre-wrap;
 
     background:#fff;
 
     border:1px solid #ddd;
-
-    border-radius:8px;
 
     padding:3rem;
 
@@ -78,38 +75,24 @@ body{
 
 }
 
-.poemasas .year{
+.poemas .year{
 
     display:block;
-
     font-size:.95rem;
-
     color:#777;
 
-    margin-bottom:2rem;
-
-    letter-spacing:2px;
-
 }
 
-.poemasas h2{
-
-    margin-bottom:1.5rem;
-
+.poemas h2{
     font-size:2rem;
-
     font-weight:normal;
-
 }
 
-.poemasas p{
+.poemas p{
 
     white-space:pre-wrap;
-
     line-height:2;
-
     text-align:left;
-
     font-size:1.05rem;
 
 }
@@ -117,11 +100,8 @@ body{
 .counter{
 
     margin-top:2rem;
-
     text-align:right;
-
     color:#999;
-
     font-size:.9rem;
 
 }
@@ -152,7 +132,6 @@ body{
 
     background:#222;
     color:white;
-
     transform:scale(1.08);
 
 }

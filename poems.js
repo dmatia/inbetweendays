@@ -253,18 +253,18 @@ title: "",
 text: `
 me alejo ciertamente de las cosas 
 parado en la orilla del todo 
-miro cómo camina el reloj 
+                miro cómo camina el reloj 
 y me voy de la idea de mí 
 y al hacerlo me voy también de la idea de vos 
 
 completa la tarde una brisa fresca del fin de septiembre 
 el invierno se resiste a la muerte con un eco 
 y yo lo entiendo 
-como empiezo a entender que tal vez sea hora de juntar mis cosas 
-de guardar la tinta y el tintero 
+                como empiezo a entender que tal vez sea hora de juntar mis cosas 
+        de guardar la tinta y el tintero 
 de dejar morir el último intento 
 de salir para siempre por la puerta que me vio entrar 
-antes de todo esto`
+                antes de todo esto`
 },
 {
 year: "2022",
@@ -273,7 +273,7 @@ text: `
 un sabor o un aroma que me lleva a una golosina de mi infancia
 ahí te encuentro
 lo que escribí en el margen de la hoja aquel día, en aquel diario (¿será tu nombre?)
-en el silencio del domingo a la tarde cuando todo termina y vuelve a empezar	(ahí en el medio)
+en el silencio del domingo a la tarde cuando todo termina y vuelve a empezar        (ahí en el medio)
 en el jazmín que se prende de la pared equivocada - no puedo juzgar
 en el sol que dejó una huella en la ventana
 en la fragilidad del intento
@@ -298,7 +298,7 @@ los navíos a lo lejos desaparecen
 la forma de la mañana asecha del otro lado 
 miramos lo mismo pero vemos diferente 
 
-¿qué hay después del último después?}
+¿qué hay después del último después?`}
 
 
 ];
